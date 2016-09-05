@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>订单信息</title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/order.css" />
+		<script type="text/javascript" src="../js/jquery-1.12.4.min.js" ></script>
+		<script type="text/javascript" src="../js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/base.js" ></script>
+		<script type="text/javascript" src="../js/test.js" ></script>
+		<script src="../js/js.KinerCode.js"></script>
+		<script type="text/javascript" src="../js/order.js" ></script>
+	</head>
+	<body>
+		<!----------------header---------------------->
+		<div id="header">
+			<div class="header_wrap">
+				<p>欢迎来到邦购网，全场满159元包邮</p>
+				<ul>
+					<li>
+						<a href="login.html" class="li_1">登录</a>
+						<div class="onload">
+							<a href="#">QQ账户登录</a><br />
+							<a href="#">支付宝登录</a><br />
+							<a href="#">微信账户登录</a>
+						</div>
+					</li>
+					<li><a href="reg.html" class="li_1">注册</a></li>
+					<li>
+						<a href="#" class="li_1">我的邦购<span class="sel"></span></a>
+						<div class="mybg">
+							<a href="#">我的订单</a><br />
+							<a href="#">我的积分</a><br />
+							<a href="#">我的点赞</a><br />
+							<a href="#">收货地址</a>
+						</div>
+					</li>
+					<li><a href="#" class="li_1">会员中心</a></li>
+					<li>
+						<a href="#" class="li_1"><span class="phone"></span>下载APP<span class="sel"></span></a>
+						<div class="dload">
+							<img src="../img/xz.jpg">
+						</div>
+					</li>
+					<li><a href="#" class="li_1">微博</a></li>
+					<li>
+						<a href="#" class="li_1">微信</a>
+						<div class="vx">
+							<img src="../img/wx.jpg">
+						</div>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+		
+		<!----------------content---------------------->
+		<div id="content">
+			<div class="con_wrap">
+				<h1><a href="../index.html"><img src="../img/logo.png"></a></h1>
+			</div>
+		</div>
+		
+		<!----------------nav---------------------->
+		<div id="nav">
+			<div class="nav_wrap">
+			</div>
+		</div>
+		
+		<!----------------main---------------------->
+		<div id="main">
+			<div class="address">
+				<dl>
+					<dt>收货地址</dt>
+					<ul class="new_address"><li style="display: none;"></li></ul>
+					<dd><input type="radio" id="new"><label for="new"> 使用新地址</label></dd>
+					<div class="addaddress">
+						<table>
+							<tr>
+								<td>收货人：</td>
+								<td><input type="text"  class="people"/> <span class="t_peo"></span></td>
+							</tr>
+							<tr>
+								<td>所在地区：</td>
+								<td>
+									<select class="province"><option>--请选择--</option></select>
+									<select class="city"><option>--请选择--</option></select>
+									<select class="district"><option>--请选择--</option></select>
+								</td>
+							</tr>
+							<tr>
+								<td>详细地址：</td>
+								<td><input type="text"  class="more_a"/></td>
+							</tr>
+							<tr>
+								<td>手机号码：</td>
+								<td><input type="text"  class="cellphone"/> <span class="t_pho"></span></td>
+							</tr>
+							<tr>
+								<td>邮箱:</td>
+								<td><input type="text"  class="mail"/> <span class="t_mail">用来接收订单提醒邮件，便于您及时了解订单状态</span></td>
+							</tr>
+							<tr>
+								<td>邮编:</td>
+								<td><input type="text" class="postcode" /> <span class="t_post"></span></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td><input type="button" class="a_btn" value="确认" /></td>
+							</tr>
+						</table>
+					</div>
+				</dl>
+			</div>
+			
+			<div class="pay">
+				<dl>
+					<dt>支付方式</dt>
+					<dd><input type="radio" id="new2" checked="checked"><label for="new2"> 在线支付</label></dd>
+				</dl>
+			</div>
+			
+			<div class="pay">
+				<dl>
+					<dt>配送方式</dt>
+					<dd><input type="radio" id="new1" checked="checked"><label for="new1"> 快递</label></dd>
+					
+				</dl>
+			</div>
+			
+			<div class="product_top">
+				<div>商品名称</div>
+				<div>颜色/尺码</div>
+				<div>数量</div>
+				<div>单价</div>
+				<div>小计</div>
+			</div>
+			<div class="product">
+				<h5>邦购</h5>
+				<div class="wrap_info">
+					
+				</div>
+				
+				<div class="freight">
+					运费：<b>￥0.00</b>
+				</div>
+			</div>
+			<div class="demo">
+				<div class="pro_info">
+					<dl class="name">
+						<dt><img style="width:58px"></dt>
+						<dd><a href="#">男全身趣味绣花七分袖衬衫 (524385)</a><br /><span></span></dd>
+					</dl>
+					<div class="size">
+						<span>0</span><br /><span>0</span>
+					</div>	
+					<div class="amount">
+						<span>0</span><br /><span>有货</span>
+					</div>	
+					<div class="price">
+						<span><del>0</del></span><br /><span>￥0</span>
+					</div>	
+					<div class="sub">
+						<span><b>0</b></span>
+					</div>	
+				</div>
+			</div>
+			
+			<div class="need">
+				<input type="checkbox" id="ck_need"/><label for="ck_need"> 需要发票</label>
+			</div>
+			
+			<div class="redp">
+				<h5>使用红包</h5>
+				<p>可用红包<span><a href="#">查看全部红包</a></span></p>
+				<div class="redp_info">
+					<ul>
+						<li>红包金额</li>
+						<li>使用限制</li>
+						<li>适用范围</li>
+						<li>有效时间</li>
+					</ul>
+					<i>您暂无可用红包</i>
+				</div>
+				<div class="exchange">
+					<i>有红包兑换码？绑定红包。</i>
+					<i>
+						输入红包兑换码:<input type="text" class="txt"> &nbsp;输入验证码:<input type="text" id="inputCode"/> <span id="code" class="mycode"></span> 
+						&nbsp;<input type="button" class="btn" value="确认绑定">
+					</i>
+				</div>
+			</div>
+			
+			
+			<div class="integral">
+				<dl>
+					<dt>使用积分</dt>
+					<dd>
+						本次使用 <input type="text" class="txt"> 个积分<br />
+						您当前积分：<b>20</b>，本单最高可使用积分<b>0</b>
+					</dd>
+				</dl>
+			</div>
+			
+			<div class="integral">
+				<dl>
+					<dt>使用邦购币</dt>
+					<dd>
+						本次使用 <input type="text" class="txt"> 个邦购币 &nbsp;<input type="button" class="btn" value="使用"><br />
+						您当前可用余额<b>￥0</b>
+					</dd>
+				</dl>
+			</div>
+			
+			<div class="money">
+				<p class="addmoney">
+					商品金额：<b>￥0.00</b> + 运费：<b>￥0.00 - 红包：￥0.00 - 积分：￥0.00</b> - 邦购币：<b>￥0</b>
+				</p>
+				<i>应付总额：</i><br />
+				<i>￥<span>0.00</span></i><br />
+				<input type="button" class="mon_btn" value="提交订单">
+			</div>
+		</div>
+		
+		<!----------------share---------------------->
+		<div id="share">
+			<div class="share_wrap">
+				<ul>
+					<li><a href="#"><img src="../img/zyshare01.png"></a></li>
+					<li><a href="#"><img src="../img/zyshare02.png"></a></li>
+					<li><a href="#"><img src="../img/zyshare03.png"></a></li>
+				</ul>
+				<div>
+					<a href="#"><img src="../img/060819.jpg"></a>
+					<dl>
+						<dt><a href="#"><img src="../img/indexonline.png"></dt>
+						<dd>在线客服</dd>
+					</dl>
+					<dl>
+						<dt><a href="#"><img src="../img/indexopinion.png"></dt>
+						<dd>意见反馈</dd>
+					</dl>
+					<dl>
+						<dt><a href="#"><img src="../img/indexsurvey.png"></dt>
+						<dd>问卷调查</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		
+		<!----------------footer---------------------->
+		<div id="footer">
+			<div class="sever">
+				<dl>
+					<dt><b>新手指南</b></dt>
+					<dd><a href="#">注册新用户</a></dd>
+					<dd><a href="#">用户协议</a></dd>
+					<dd><a href="#">找回密码</a></dd>
+				</dl>
+				<dl>
+					<dt><b>购物指南</b></dt>
+					<dd><a href="#">红包使用说明</a></dd>
+					<dd><a href="#">购物流程</a></dd>
+					<dd><a href="#">订单状态</a></dd>
+					<dd><a href="#">邦购币绑定与使用</a></dd>
+				</dl>
+				<dl>
+					<dt><b>配送方式</b></dt>
+					<dd><a href="#">配送范围</a></dd>
+					<dd><a href="#">订单拆分</a></dd>
+					<dd><a href="#">商品验货与签收</a></dd>
+				</dl>
+				<dl>
+					<dt><b>支付方式</b></dt>
+					<dd><a href="#">发票制度</a></dd>
+					<dd><a href="#">支付方式</a></dd>
+				</dl>
+				<dl>
+					<dt><b>售后服务</b></dt>
+					<dd><a href="#">退换货政策</a></dd>
+					<dd><a href="#">退换办理流程</a></dd>
+					<dd><a href="#">退款说明</a></dd>
+				</dl>
+				<dl>
+					<dt><b>联系方式</b></dt>
+					<dd>客服：400 821 9988</dd>
+					<dd>监督：021-38119999-6038</dd>
+					<dd><a href="#">在线客服</a></dd>
+					<dd><a href="#">用户调研</a></dd>
+				</dl>
+			</div>
+			<div class="copy">
+				<p>CopyRight © 2000-2016, 版权所有 上海美特斯邦威服饰股份有限公司 banggo.com 沪ICP备05033127号</p>
+				<span>
+					<a href="#"><img src="../img/lz_beian_h40.png"></a>
+					<a href="#"><img src="../img/lz_shgs_h40.png"></a>
+				    <a href="#"><img src="../img/lz_szfw_h40.png"></a>
+				</span>
+			</div>
+		</div>
+		<div id="fix">
+			<div class="top"></div>
+			<div class="online"></div>
+		</div>
+	</body>
+</html>

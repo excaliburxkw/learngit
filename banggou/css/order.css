@@ -1,0 +1,69 @@
+#nav{height: 29px;border-bottom: 1px solid #ccc;}
+#nav .nav_wrap{height: 29px;background: url(../img/bg.png) no-repeat right -1607px;}
+a{color: #000;}
+li{list-style: none;}
+/*************************************main******************************/
+#main{width:100%;overflow: hidden;}
+#main .address{width:1200px;height: auto;margin: 30px auto 0;border: 1px solid #ccc;overflow: hidden;}
+#main .address dl dt{width:1178px;height: 17px;padding: 11px 10px ;border-bottom: 1px solid #ccc;background: #fafafa;}
+#main .address dl dd{width:1178px;height: 26px;padding: 10px ;}
+#main .address dl li{width:1178px;height: 26px;padding: 10px 10px 0 10px;}
+#main .address .addaddress{width: 1178px;height: 248px;margin: 0 auto 10px;display: none;}
+#main .address .addaddress table{width: 1178px;height: 248px;border: 1px solid #ccc;border-collapse: collapse;}
+#main .address .addaddress table tr td{border: 1px solid #ccc;}
+#main .address .addaddress table tr td:nth-of-type(1){width:147px;height: 21px;padding: 6px;margin: 1px;}
+#main .address .addaddress table tr td:nth-of-type(2){width:1004px;height: 21px;padding: 6px;margin: 1px;}
+#main .address .addaddress .a_btn{cursor:pointer;padding: 5px 19px;background: #f8584f;border-radius: 4px;border: 0;color: #fff;font-weight: 900;}
+#main .pay{width:1200px;height: 79px;margin: 20px auto 0;border: 1px solid #ccc;}
+#main .pay dl dt{width:1178px;height: 16px;padding: 11px 10px ;border-bottom: 1px solid #ccc;background: #fafafa;}
+#main .pay dl dd{width:1178px;height: 18px;padding: 10px ;}
+#main .product_top{width:1178px;height: 40px;margin: 20px auto 0;background: #fafafa;padding: 0 10px;border: 1px solid #ccc;border-bottom: 0;}
+#main .product_top div{float: left;text-align: center;height: 40px; line-height: 40px;}
+#main .product_top div:nth-of-type(1){width:300px}
+#main .product_top div:nth-of-type(2){width:265px}
+#main .product_top div:nth-of-type(3){width:165px;padding-left: 15px;}
+#main .product_top div:nth-of-type(4){width:218px}
+#main .product_top div:nth-of-type(5){width:165px;padding-left: 25px;}
+#main .product{width:1200px;height: auto;margin:0 auto ;}
+#main .product h5{background: #fafafa;width:1188px;height: 39px;border: 1px solid #ccc;border-bottom: 0;padding-left: 10px;line-height: 39px;}
+#main .pro_info{width: 1198px;height: 88px;border: 1px solid #ccc;display: none;margin-bottom: -1px;}
+#main .pro_info .name{padding: 15px 6px 15px 10px;width:272px;height: 60px;float: left;}
+#main .pro_info .name dt{width: 60px;height: 60px;float: left;margin-right: 10px;border:1px solid #ccc;}
+#main .pro_info .name dd{}
+#main .pro_info .size{width: 261px;height: 40px;padding: 25px 6px;float: left;text-align: center;margin-left: 15px;}
+#main .pro_info .amount{width: 162px;height: 40px;padding: 25px 6px;float: left;text-align: center;margin-left: 10px;}
+#main .pro_info .price{width: 176px;height: 40px;padding: 25px 6px;float: left;text-align: center;margin-left: 10px;}
+#main .pro_info .sub{width: 210px;height: 40px;line-height:40px;padding: 25px 6px;float: left;text-align: center;margin-left: 10px;color: red;}
+#main .product .freight{width: 1178px;height: 42px;line-height:42px;text-align:right;padding-right: 20px;border: 1px solid #ccc;border-top: 0;}
+#main .product .freight b{color: red;font-size: 16px;}
+#main .need{width: 1200px;height: 18px;text-align: right;margin: 10px auto 0;} 
+#main .redp{width: 1198px;height: 233px;border: 1px solid #ccc;margin: 20px auto 0;}
+#main .redp h5{background: #fafafa;width:1188px;height: 39px;border-bottom:1px solid #ccc;padding-left: 10px;line-height: 39px;}
+#main .redp p{color: red;height: 41px;line-height: 41px;width: 1147px;padding: 0 26px;border-bottom:1px solid #ccc;}
+#main .redp p span{float: right;}
+#main .redp .redp_info{width: 1179px;height: 74px;border-bottom: 1px solid #ccc;padding: 0 10px;}
+#main .redp .redp_info ul{height: 30px;background: #fafafa;margin-top: 15px;}
+#main .redp .redp_info li{height: 30px;width:290px;line-height: 30px;float: left;text-align: center;}
+#main .redp .redp_info i{font-style: normal;text-align: center;display: block;width: 100%;margin-top: 15px;}
+#main .redp .exchange {height: 70px;padding-top: 10px;}
+#main .redp .exchange i {font-style: normal;display: block;height: 15px;margin: 0px 0 0 10px;}
+#inputCode{width:60px;border: 1px solid #ccc; }
+#main .redp .exchange .mycode{ display: inline-block;width: 80px; height: 40px;vertical-align: middle;}
+#main .integral{width:1200px;height: 121px;margin: 20px auto 0;overflow: hidden;border: 1px solid #ccc;}
+#main .integral dl dt{width:1178px;height: 17px;padding: 11px 10px ;border-bottom: 1px solid #ccc;background: #fafafa;}
+#main .integral dl dd{width:1178px;height: 81px;margin: 10px 0 0 10px;line-height: 30px;}
+#main .integral dl dd b{color: red;}
+#main .txt{border: 1px solid #ccc;width: 100px;}
+#main .btn{cursor:pointer;padding: 5px 19px;background: #f8584f;border-radius: 4px;border: 0;color: #fff;font-weight: 900;}
+#main .money{text-align:right;width: 1200px;height: 142px;margin: 20px auto 0;padding-bottom: 20px;}
+#main .money .addmoney{text-align: right;margin-bottom: 20px;}
+#main .money .addmoney b{color: red;}
+#main .money i{font-style: normal;font-size:14px ;line-height: 27px;}
+#main .money i span{color: red;font-size: 24px;font-weight: 900;}
+#main .money .mon_btn{cursor:pointer;padding: 5px 39px;background: #f8584f;border-radius: 4px;border: 0;color: #fff;font-weight: 900;margin-top: 20px;}
+
+
+
+
+
+

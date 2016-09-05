@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>热门品牌</title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/hot.css" />
+		<script type="text/javascript" src="../js/jquery-1.12.4.min.js" ></script>
+		<script type="text/javascript" src="../js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/base.js" ></script>
+		<script type="text/javascript" src="../js/public.js" ></script>
+	</head>
+	<body>
+		<!----------------header---------------------->
+		<div id="header">
+			<div class="header_wrap">
+				<p>欢迎来到邦购网，全场满159元包邮</p>
+				<ul>
+					<li>
+						<a href="login.html" class="li_1">登录</a>
+						<div class="onload">
+							<a href="#">QQ账户登录</a><br />
+							<a href="#">支付宝登录</a><br />
+							<a href="#">微信账户登录</a>
+						</div>
+					</li>
+					<li><a href="reg.html" class="li_1">注册</a></li>
+					<li>
+						<a href="#" class="li_1">我的邦购<span class="sel"></span></a>
+						<div class="mybg">
+							<a href="#">我的订单</a><br />
+							<a href="#">我的积分</a><br />
+							<a href="#">我的点赞</a><br />
+							<a href="#">收货地址</a>
+						</div>
+					</li>
+					<li><a href="#" class="li_1">会员中心</a></li>
+					<li>
+						<a href="#" class="li_1"><span class="phone"></span>下载APP<span class="sel"></span></a>
+						<div class="dload">
+							<img src="../img/xz.jpg">
+						</div>
+					</li>
+					<li><a href="#" class="li_1">微博</a></li>
+					<li>
+						<a href="#" class="li_1">微信</a>
+						<div class="vx">
+							<img src="../img/wx.jpg">
+						</div>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+		
+		<!----------------content---------------------->
+		<div id="content">
+			<div class="con_wrap">
+				<h1><a href="../index.html"><img src="../img/logo.png"></a></h1>
+				<form>
+					<input type="text" class="txt" placeholder="会员回馈 整点赢免单"/>
+					<input type="button" class="btn"/>
+				</form>
+				<ul>
+					<li><a href="#">T恤</a></li>
+					<li><a href="#">衬衫</a></li>
+					<li><a href="#">短裤</a></li>
+					<li><a href="#">名将</a></li>
+					<li><a href="#" style="color: #d30a06;">GENANX</a></li>
+					<li><a href="#" class="lastbor">49元T</a></li>
+				</ul>
+				<p><span class="cart"></span><a href="cart.html">购物袋 <b style="color: red;font-size: 16px;">0</b> 件</a></p>
+			</div>
+		</div>
+		
+		<!----------------nav---------------------->
+		<div id="nav">
+			<div class="nav_wrap">
+				<h2>
+					<span class="three"></span>
+					<a href="#"> 商品分类</a>
+					<div class="menu">
+						<dl>
+							<dt><a href="#"><b>男装</b></a><span class="arrow"></span><span class="l_arrow"></span></dt>
+							<dd>
+								<a href="#" style="color: #d30a06;">T恤</a>
+								<a href="#">衬衫</a>
+								<a href="#">休闲裤</a>
+								<a href="#">中短裤</a>
+								<a href="#" style="color: #d30a06;">夏特惠</a>
+							</dd>
+							<div class="menu_list">
+								<div class="ml_left">
+									<dl>
+										<dt><h4><a href="#">热门HOT</a></h4></dt>
+										<dd>
+											<a href="#">型男吸睛术</a>
+											<a href="#">专供款</a><br />
+											<a href="#">买魔兽T赠正版手办</a><br />
+											<a href="#">印花单品49元起</a><br />
+											<a href="#">美国队长火爆发售</a><br />
+											<a href="#">青云志合作款</a><br />
+											<a href="#">新品39元起</a>
+											<a href="#">裤装满减</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><h4><a href="#">上装TOPS</a></h4></dt>
+										<dd>
+											<a href="#">短袖T恤</a>
+											<a href="#">POLO</a><br />
+											<a href="#">背心</a>
+											<a href="#">长袖T恤</a>
+											<a href="#">卫衣</a><br />
+											<a href="#">西装</a>
+											<a href="#">毛衣</a>
+											<a href="#">夹克</a><br />
+											<a href="#">短袖衬衫</a>
+											<a href="#">长袖衬衫</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><h4><a href="#">下装PANTS</a></h4></dt>
+										<dd>
+											<a href="#">针织休闲裤</a>
+											<a href="#">牛仔中裤</a><br />
+											<a href="#">休闲中裤</a>
+											<a href="#">针织中裤</a><br />
+											<a href="#">牛仔长裤</a>
+											<a href="#">休闲长裤</a><br />
+											<a href="#">针织运动裤</a>
+											<a href="#">西裤</a><br />
+											<a href="#">收口慢跑裤</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="ml_right">
+		         					<a href="#"><img src="../img/540-360(1).jpg"></a>               	
+		         					<h3>男装热门品牌</h3>
+		         					<a href="#" class="shangb"><img src="../img/metersbonwe.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/mecity.jpg"></a> 
+		         					<a href="#" class="shangb"><img src="../img/fhgs.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/dickies.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/bjj.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/adidas.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/ysl.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/connive.png"></a> 
+								</div>
+							</div>
+						</dl>
+						<dl>
+							<dt><a href="#"><b>女装</b></a><span class="arrow"></span><span class="l_arrow"></span></dt>
+							<dd>
+								<a href="#" style="color: #d30a06;">连衣裙</a>
+								<a href="#">衬衫</a>
+								<a href="#">牛仔裤</a>
+								<a href="#" style="color: #d30a06;">T恤</a>
+								<a href="#" style="color: #d30a06;">秋上新</a>
+							</dd>
+							<div class="menu_list">
+								<div class="ml_left">
+									<dl>
+										<dt><h4><a href="#">热门HOT</a></h4></dt>
+										<dd>
+											<a href="#">型男吸睛术</a>
+											<a href="#">专供款</a><br />
+											<a href="#">买魔兽T赠正版手办</a><br />
+											<a href="#">印花单品49元起</a><br />
+											<a href="#">美国队长火爆发售</a><br />
+											<a href="#">青云志合作款</a><br />
+											<a href="#">新品39元起</a>
+											<a href="#">裤装满减</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><h4><a href="#">上装TOPS</a></h4></dt>
+										<dd>
+											<a href="#">短袖T恤</a>
+											<a href="#">POLO</a><br />
+											<a href="#">背心</a>
+											<a href="#">长袖T恤</a>
+											<a href="#">卫衣</a><br />
+											<a href="#">西装</a>
+											<a href="#">毛衣</a>
+											<a href="#">夹克</a><br />
+											<a href="#">短袖衬衫</a>
+											<a href="#">长袖衬衫</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><h4><a href="#">下装PANTS</a></h4></dt>
+										<dd>
+											<a href="#">针织休闲裤</a>
+											<a href="#">牛仔中裤</a><br />
+											<a href="#">休闲中裤</a>
+											<a href="#">针织中裤</a><br />
+											<a href="#">牛仔长裤</a>
+											<a href="#">休闲长裤</a><br />
+											<a href="#">针织运动裤</a>
+											<a href="#">西裤</a><br />
+											<a href="#">收口慢跑裤</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="ml_right">
+		         					<a href="#"><img src="../img/540-360715-1.jpg"></a>               	
+		         					<h3>男装热门品牌</h3>
+		         					<a href="#" class="shangb"><img src="../img/metersbonwe.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/mecity.jpg"></a> 
+		         					<a href="#" class="shangb"><img src="../img/fhgs.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/dickies.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/bjj.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/adidas.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/ysl.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/connive.png"></a> 
+								</div>
+							</div>
+						</dl>
+						<dl>
+							<dt><a href="#"><b>儿童</b></a><span class="arrow"></span><span class="l_arrow"></span></dt>
+							<dd>
+								<a href="#" style="color: #d30a06;">29元封顶</a>
+								<a href="#">童鞋</a>
+								<a href="#">童包</a>
+								<a href="#" style="color: #d30a06;">冬装3折</a>
+							</dd>
+							<div class="menu_list">
+								<div class="ml_left">
+									<dl>
+										<dt><h4><a href="#">热门HOT</a></h4></dt>
+										<dd>
+											<a href="#">型男吸睛术</a>
+											<a href="#">专供款</a><br />
+											<a href="#">买魔兽T赠正版手办</a><br />
+											<a href="#">印花单品49元起</a><br />
+											<a href="#">美国队长火爆发售</a><br />
+											<a href="#">青云志合作款</a><br />
+											<a href="#">新品39元起</a>
+											<a href="#">裤装满减</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><h4><a href="#">上装TOPS</a></h4></dt>
+										<dd>
+											<a href="#">短袖T恤</a>
+											<a href="#">POLO</a><br />
+											<a href="#">背心</a>
+											<a href="#">长袖T恤</a>
+											<a href="#">卫衣</a><br />
+											<a href="#">西装</a>
+											<a href="#">毛衣</a>
+											<a href="#">夹克</a><br />
+											<a href="#">短袖衬衫</a>
+											<a href="#">长袖衬衫</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><h4><a href="#">下装PANTS</a></h4></dt>
+										<dd>
+											<a href="#">针织休闲裤</a>
+											<a href="#">牛仔中裤</a><br />
+											<a href="#">休闲中裤</a>
+											<a href="#">针织中裤</a><br />
+											<a href="#">牛仔长裤</a>
+											<a href="#">休闲长裤</a><br />
+											<a href="#">针织运动裤</a>
+											<a href="#">西裤</a><br />
+											<a href="#">收口慢跑裤</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="ml_right">
+		         					<a href="#"><img src="../img/syzc.jpg"></a>               	
+		         					<h3>男装热门品牌</h3>
+		         					<a href="#" class="shangb"><img src="../img/metersbonwe.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/mecity.jpg"></a> 
+		         					<a href="#" class="shangb"><img src="../img/fhgs.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/dickies.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/bjj.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/adidas.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/ysl.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/connive.png"></a> 
+								</div>
+							</div>
+						</dl>
+						<dl>
+							<dt><a href="#"><b>鞋履</b></a><span class="arrow"></span><span class="l_arrow"></span></dt>
+							<dd>
+								<a href="#">凉鞋</a>
+								<a href="#">运动鞋</a>
+								<a href="#">帆布鞋</a>
+								<a href="#" style="color: #d30a06;">鬼冢虎</a>
+							</dd>
+							<div class="menu_list">
+								<div class="ml_left">
+									<dl>
+										<dt><h4><a href="#">热门HOT</a></h4></dt>
+										<dd>
+											<a href="#">型男吸睛术</a>
+											<a href="#">专供款</a><br />
+											<a href="#">买魔兽T赠正版手办</a><br />
+											<a href="#">印花单品49元起</a><br />
+											<a href="#">美国队长火爆发售</a><br />
+											<a href="#">青云志合作款</a><br />
+											<a href="#">新品39元起</a>
+											<a href="#">裤装满减</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><h4><a href="#">上装TOPS</a></h4></dt>
+										<dd>
+											<a href="#">短袖T恤</a>
+											<a href="#">POLO</a><br />
+											<a href="#">背心</a>
+											<a href="#">长袖T恤</a>
+											<a href="#">卫衣</a><br />
+											<a href="#">西装</a>
+											<a href="#">毛衣</a>
+											<a href="#">夹克</a><br />
+											<a href="#">短袖衬衫</a>
+											<a href="#">长袖衬衫</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><h4><a href="#">下装PANTS</a></h4></dt>
+										<dd>
+											<a href="#">针织休闲裤</a>
+											<a href="#">牛仔中裤</a><br />
+											<a href="#">休闲中裤</a>
+											<a href="#">针织中裤</a><br />
+											<a href="#">牛仔长裤</a>
+											<a href="#">休闲长裤</a><br />
+											<a href="#">针织运动裤</a>
+											<a href="#">西裤</a><br />
+											<a href="#">收口慢跑裤</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="ml_right">
+		         					<a href="#"><img src="../img/D1.png"></a>               	
+		         					<h3>男装热门品牌</h3>
+		         					<a href="#" class="shangb"><img src="../img/metersbonwe.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/mecity.jpg"></a> 
+		         					<a href="#" class="shangb"><img src="../img/fhgs.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/dickies.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/bjj.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/adidas.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/ysl.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/connive.png"></a> 
+								</div>
+							</div>
+						</dl>
+						<dl>
+							<dt><a href="#"><b>箱包</b></a><span class="arrow"></span><span class="l_arrow"></span></dt>
+							<dd>
+								<a href="#" style="color: #d30a06;">双肩包</a>
+								<a href="#">斜挎包</a>
+								<a href="#">钱包</a>
+								<a href="#">手提包</a>
+							</dd>
+							<div class="menu_list">
+								<div class="ml_left">
+									<dl>
+										<dt><h4><a href="#">热门HOT</a></h4></dt>
+										<dd>
+											<a href="#">型男吸睛术</a>
+											<a href="#">专供款</a><br />
+											<a href="#">买魔兽T赠正版手办</a><br />
+											<a href="#">印花单品49元起</a><br />
+											<a href="#">美国队长火爆发售</a><br />
+											<a href="#">青云志合作款</a><br />
+											<a href="#">新品39元起</a>
+											<a href="#">裤装满减</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><h4><a href="#">上装TOPS</a></h4></dt>
+										<dd>
+											<a href="#">短袖T恤</a>
+											<a href="#">POLO</a><br />
+											<a href="#">背心</a>
+											<a href="#">长袖T恤</a>
+											<a href="#">卫衣</a><br />
+											<a href="#">西装</a>
+											<a href="#">毛衣</a>
+											<a href="#">夹克</a><br />
+											<a href="#">短袖衬衫</a>
+											<a href="#">长袖衬衫</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><h4><a href="#">下装PANTS</a></h4></dt>
+										<dd>
+											<a href="#">针织休闲裤</a>
+											<a href="#">牛仔中裤</a><br />
+											<a href="#">休闲中裤</a>
+											<a href="#">针织中裤</a><br />
+											<a href="#">牛仔长裤</a>
+											<a href="#">休闲长裤</a><br />
+											<a href="#">针织运动裤</a>
+											<a href="#">西裤</a><br />
+											<a href="#">收口慢跑裤</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="ml_right">
+		         					<a href="#"><img src="../img/bao.jpg"></a>               	
+		         					<h3>男装热门品牌</h3>
+		         					<a href="#" class="shangb"><img src="../img/metersbonwe.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/mecity.jpg"></a> 
+		         					<a href="#" class="shangb"><img src="../img/fhgs.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/dickies.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/bjj.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/adidas.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/ysl.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/connive.png"></a> 
+								</div>
+							</div>
+						</dl>
+						<dl>
+							<dt><a href="#"><b>配饰</b></a><span class="arrow"></span><span class="l_arrow"></span></dt>
+							<dd>
+								<a href="#" style="color: #d30a06;">腕表</a>
+								<a href="#">太阳镜</a>
+								<a href="#">腰带</a>
+								<a href="#">帽子</a>
+								<a href="#">耳饰</a>
+							</dd>
+							<div class="menu_list">
+								<div class="ml_left">
+									<dl>
+										<dt><h4><a href="#">热门HOT</a></h4></dt>
+										<dd>
+											<a href="#">型男吸睛术</a>
+											<a href="#">专供款</a><br />
+											<a href="#">买魔兽T赠正版手办</a><br />
+											<a href="#">印花单品49元起</a><br />
+											<a href="#">美国队长火爆发售</a><br />
+											<a href="#">青云志合作款</a><br />
+											<a href="#">新品39元起</a>
+											<a href="#">裤装满减</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><h4><a href="#">上装TOPS</a></h4></dt>
+										<dd>
+											<a href="#">短袖T恤</a>
+											<a href="#">POLO</a><br />
+											<a href="#">背心</a>
+											<a href="#">长袖T恤</a>
+											<a href="#">卫衣</a><br />
+											<a href="#">西装</a>
+											<a href="#">毛衣</a>
+											<a href="#">夹克</a><br />
+											<a href="#">短袖衬衫</a>
+											<a href="#">长袖衬衫</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><h4><a href="#">下装PANTS</a></h4></dt>
+										<dd>
+											<a href="#">针织休闲裤</a>
+											<a href="#">牛仔中裤</a><br />
+											<a href="#">休闲中裤</a>
+											<a href="#">针织中裤</a><br />
+											<a href="#">牛仔长裤</a>
+											<a href="#">休闲长裤</a><br />
+											<a href="#">针织运动裤</a>
+											<a href="#">西裤</a><br />
+											<a href="#">收口慢跑裤</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="ml_right">
+		         					<a href="#"><img src="../img/peishi.jpg"></a>               	
+		         					<h3>男装热门品牌</h3>
+		         					<a href="#" class="shangb"><img src="../img/metersbonwe.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/mecity.jpg"></a> 
+		         					<a href="#" class="shangb"><img src="../img/fhgs.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/dickies.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/bjj.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/adidas.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/ysl.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/connive.png"></a> 
+								</div>
+							</div>
+						</dl>
+						<dl>
+							<dt><a href="#"><b>生活/内衣</b></a><span class="arrow"></span><span class="l_arrow"></span></dt>
+							<dd>
+								<a href="#">四件套</a>
+								<a href="#">耳机</a>
+								<a href="#">雨伞</a>
+								<a href="#">内裤</a>
+								<a href="#" style="color: #d30a06;">MixVis</a>
+							</dd>
+							<div class="menu_list">
+								<div class="ml_left">
+									<dl>
+										<dt><h4><a href="#">热门HOT</a></h4></dt>
+										<dd>
+											<a href="#">型男吸睛术</a>
+											<a href="#">专供款</a><br />
+											<a href="#">买魔兽T赠正版手办</a><br />
+											<a href="#">印花单品49元起</a><br />
+											<a href="#">美国队长火爆发售</a><br />
+											<a href="#">青云志合作款</a><br />
+											<a href="#">新品39元起</a>
+											<a href="#">裤装满减</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><h4><a href="#">上装TOPS</a></h4></dt>
+										<dd>
+											<a href="#">短袖T恤</a>
+											<a href="#">POLO</a><br />
+											<a href="#">背心</a>
+											<a href="#">长袖T恤</a>
+											<a href="#">卫衣</a><br />
+											<a href="#">西装</a>
+											<a href="#">毛衣</a>
+											<a href="#">夹克</a><br />
+											<a href="#">短袖衬衫</a>
+											<a href="#">长袖衬衫</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><h4><a href="#">下装PANTS</a></h4></dt>
+										<dd>
+											<a href="#">针织休闲裤</a>
+											<a href="#">牛仔中裤</a><br />
+											<a href="#">休闲中裤</a>
+											<a href="#">针织中裤</a><br />
+											<a href="#">牛仔长裤</a>
+											<a href="#">休闲长裤</a><br />
+											<a href="#">针织运动裤</a>
+											<a href="#">西裤</a><br />
+											<a href="#">收口慢跑裤</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="ml_right">
+		         					<a href="#"><img src="../img/540-360.jpg"></a>               	
+		         					<h3>男装热门品牌</h3>
+		         					<a href="#" class="shangb"><img src="../img/metersbonwe.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/mecity.jpg"></a> 
+		         					<a href="#" class="shangb"><img src="../img/fhgs.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/dickies.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/bjj.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/adidas.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/ysl.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/connive.png"></a> 
+								</div>
+							</div>
+						</dl>
+						<dl>
+							<dt><a href="#"><b>美妆个护</b></a><span class="arrow"></span><span class="l_arrow"></span></dt>
+							<dd>
+								<a href="#" style="color: #d30a06;">洗面奶</a>
+								<a href="#">香水</a>
+								<a href="#">爆款面膜</a>
+								<a href="#">防晒霜</a>
+							</dd>
+							<div class="menu_list">
+								<div class="ml_left">
+									<dl>
+										<dt><h4><a href="#">热门HOT</a></h4></dt>
+										<dd>
+											<a href="#">型男吸睛术</a>
+											<a href="#">专供款</a><br />
+											<a href="#">买魔兽T赠正版手办</a><br />
+											<a href="#">印花单品49元起</a><br />
+											<a href="#">美国队长火爆发售</a><br />
+											<a href="#">青云志合作款</a><br />
+											<a href="#">新品39元起</a>
+											<a href="#">裤装满减</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><h4><a href="#">上装TOPS</a></h4></dt>
+										<dd>
+											<a href="#">短袖T恤</a>
+											<a href="#">POLO</a><br />
+											<a href="#">背心</a>
+											<a href="#">长袖T恤</a>
+											<a href="#">卫衣</a><br />
+											<a href="#">西装</a>
+											<a href="#">毛衣</a>
+											<a href="#">夹克</a><br />
+											<a href="#">短袖衬衫</a>
+											<a href="#">长袖衬衫</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><h4><a href="#">下装PANTS</a></h4></dt>
+										<dd>
+											<a href="#">针织休闲裤</a>
+											<a href="#">牛仔中裤</a><br />
+											<a href="#">休闲中裤</a>
+											<a href="#">针织中裤</a><br />
+											<a href="#">牛仔长裤</a>
+											<a href="#">休闲长裤</a><br />
+											<a href="#">针织运动裤</a>
+											<a href="#">西裤</a><br />
+											<a href="#">收口慢跑裤</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="ml_right">
+		         					<a href="#"><img src="../img/540360.jpg"></a>               	
+		         					<h3>男装热门品牌</h3>
+		         					<a href="#" class="shangb"><img src="../img/metersbonwe.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/mecity.jpg"></a> 
+		         					<a href="#" class="shangb"><img src="../img/fhgs.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/dickies.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/bjj.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/adidas.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/ysl.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/connive.png"></a> 
+								</div>
+							</div>
+						</dl>
+						<dl>
+							<dt><a href="#"><b>SALE夏日冰点特惠</b></a><span class="arrow"></span><span class="l_arrow"></span></dt>
+							<dd>
+								<a href="#">1折封顶</a>
+								<a href="#">2折封顶</a>
+								<a href="#">3折封顶</a>
+							</dd>
+							<div class="menu_list">
+								<div class="ml_left">
+									<dl>
+										<dt><h4><a href="#">热门HOT</a></h4></dt>
+										<dd>
+											<a href="#">型男吸睛术</a>
+											<a href="#">专供款</a><br />
+											<a href="#">买魔兽T赠正版手办</a><br />
+											<a href="#">印花单品49元起</a><br />
+											<a href="#">美国队长火爆发售</a><br />
+											<a href="#">青云志合作款</a><br />
+											<a href="#">新品39元起</a>
+											<a href="#">裤装满减</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><h4><a href="#">上装TOPS</a></h4></dt>
+										<dd>
+											<a href="#">短袖T恤</a>
+											<a href="#">POLO</a><br />
+											<a href="#">背心</a>
+											<a href="#">长袖T恤</a>
+											<a href="#">卫衣</a><br />
+											<a href="#">西装</a>
+											<a href="#">毛衣</a>
+											<a href="#">夹克</a><br />
+											<a href="#">短袖衬衫</a>
+											<a href="#">长袖衬衫</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><h4><a href="#">下装PANTS</a></h4></dt>
+										<dd>
+											<a href="#">针织休闲裤</a>
+											<a href="#">牛仔中裤</a><br />
+											<a href="#">休闲中裤</a>
+											<a href="#">针织中裤</a><br />
+											<a href="#">牛仔长裤</a>
+											<a href="#">休闲长裤</a><br />
+											<a href="#">针织运动裤</a>
+											<a href="#">西裤</a><br />
+											<a href="#">收口慢跑裤</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="ml_right">
+		         					<a href="#"><img src="../img/0801_01x.jpg"></a>               	
+		         					<h3>男装热门品牌</h3>
+		         					<a href="#" class="shangb"><img src="../img/metersbonwe.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/mecity.jpg"></a> 
+		         					<a href="#" class="shangb"><img src="../img/fhgs.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/dickies.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/bjj.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/adidas.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/ysl.png"></a> 
+		         					<a href="#" class="shangb"><img src="../img/connive.png"></a> 
+								</div>
+							</div>
+						</dl>
+					</div>
+				
+				</h2>
+				<ul>
+					<li><a href="../index.html"><img src="../img/sy.png"></a></li>
+					<li><a href="#"><img src="../img/sporthot.gif"></a></li>
+					<li><a href="#"><img src="../img/rmpp.png"></a></li>
+					<li><a href="#"><img src="../img/bangbang.gif"></a></li>
+					<li><a href="#"><img src="../img/ggwxrzx.gif"></a></li>
+					<li><a href="#"><img src="../img/sale.png"></a></li>
+				</ul>
+				<a href="#" class="gif"><img src="../img/520.gif"></a>
+			</div>
+		</div>
+		<!----------------main---------------------->
+		<div id="main">
+			<div class="tip">
+				<span><b>邦邦团</b></span>
+				<p><b>正在进行:</b></p>
+			</div>
+			<div class="container">
+				<div class="box">
+					<div class="box_left">
+						<span><a href="#"><img src="../img/0406mblogo.jpg"></a></span>
+						<span><a href="#">七夕男生专场</a></span>
+						<span><a href="#">满99-20 199-50</a></span>
+						<span><a href="#">
+							距离结束：<b>00</b>天<b>00</b>小时<b>00</b>分<b>00</b>秒
+						</a></span>
+					</div>
+					<div class="box_right">
+						<a href="#"><img src="../img/1_850.jpg"></a>
+					</div>
+				</div>
+				<div class="box">
+					<div class="box_left">
+						<span><a href="#"><img src="../img/0406mblogo.jpg"></a></span>
+						<span><a href="#">一降到底</a></span>
+						<span><a href="#">最高不过99元</a></span>
+						<span><a href="#">
+							距离结束：<b>00</b>天<b>00</b>小时<b>00</b>分<b>00</b>秒
+						</a></span>
+					</div>
+					<div class="box_right">
+						<a href="#"><img src="../img/2_850.jpg"></a>
+					</div>
+				</div>
+				<div class="box">
+					<div class="box_left">
+						<span><a href="#"><img src="../img/LOGO.jpg"></a></span>
+						<span><a href="#">童装</a></span>
+						<span><a href="#">秋装上新</a></span>
+						<span><a href="#">
+							距离结束：<b>00</b>天<b>00</b>小时<b>00</b>分<b>00</b>秒
+						</a></span>
+					</div>
+					<div class="box_right">
+						<a href="#"><img src="../img/3_850.jpg"></a>
+					</div>
+				</div>
+				<div class="box">
+					<div class="box_left">
+						<span><a href="#"><img src="../img/Ologo.jpg"></a></span>
+						<span><a href="#">夏日冰点价</a></span>
+						<span><a href="#">双肩包69元起</a></span>
+						<span><a href="#">
+							距离结束：<b>00</b>天<b>00</b>小时<b>00</b>分<b>00</b>秒
+						</a></span>
+					</div>
+					<div class="box_right">
+						<a href="#"><img src="../img/4_850.jpg"></a>
+					</div>
+				</div>
+				<div class="box">
+					<div class="box_left">
+						<span><a href="#"><img src="../img/logo-1.jpg"></a></span>
+						<span><a href="#">经典马赛皂</a></span>
+						<span><a href="#">全场6折起</a></span>
+						<span><a href="#">
+							距离结束：<b>00</b>天<b>00</b>小时<b>00</b>分<b>00</b>秒
+						</a></span>
+					</div>
+					<div class="box_right">
+						<a href="#"><img src="../img/5_850.jpg"></a>
+					</div>
+				</div>
+				<div class="box">
+					<div class="box_left">
+						<span><a href="#"><img src="../img/LOGO(1).jpg"></a></span>
+						<span><a href="#">"玩美"指尖</a></span>
+						<span><a href="#">10元带回家</a></a></span>
+						<span><a href="#">
+							距离结束：<b>00</b>天<b>00</b>小时<b>00</b>分<b>00</b>秒
+						</a></span>
+					</div>
+					<div class="box_right">
+						<a href="#"><img src="../img/6_850.jpg"></a>
+					</div>
+				</div>
+				<div class="box">
+					<div class="box_left">
+						<span><a href="#"><img src="../img/Wlogo.jpg"></a></span>
+						<span><a href="#">new arrival</a></span>
+						<span><a href="#">低至3折</a></span>
+						<span><a href="#">
+							距离结束：<b>00</b>天<b>00</b>小时<b>00</b>分<b>00</b>秒
+						</a></span>
+					</div>
+					<div class="box_right">
+						<a href="#"><img src="../img/7_850.jpg"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!----------------share---------------------->
+		<div id="share">
+			<div class="share_wrap">
+				<ul>
+					<li><a href="#"><img src="../img/zyshare01.png"></a></li>
+					<li><a href="#"><img src="../img/zyshare02.png"></a></li>
+					<li><a href="#"><img src="../img/zyshare03.png"></a></li>
+				</ul>
+				<div>
+					<a href="#"><img src="../img/060819.jpg"></a>
+					<dl>
+						<dt><a href="#"><img src="../img/indexonline.png"></dt>
+						<dd>在线客服</dd>
+					</dl>
+					<dl>
+						<dt><a href="#"><img src="../img/indexopinion.png"></dt>
+						<dd>意见反馈</dd>
+					</dl>
+					<dl>
+						<dt><a href="#"><img src="../img/indexsurvey.png"></dt>
+						<dd>问卷调查</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		
+		<!----------------footer---------------------->
+		<div id="footer">
+			<div class="sever">
+				<dl>
+					<dt><b>新手指南</b></dt>
+					<dd><a href="#">注册新用户</a></dd>
+					<dd><a href="#">用户协议</a></dd>
+					<dd><a href="#">找回密码</a></dd>
+				</dl>
+				<dl>
+					<dt><b>购物指南</b></dt>
+					<dd><a href="#">红包使用说明</a></dd>
+					<dd><a href="#">购物流程</a></dd>
+					<dd><a href="#">订单状态</a></dd>
+					<dd><a href="#">邦购币绑定与使用</a></dd>
+				</dl>
+				<dl>
+					<dt><b>配送方式</b></dt>
+					<dd><a href="#">配送范围</a></dd>
+					<dd><a href="#">订单拆分</a></dd>
+					<dd><a href="#">商品验货与签收</a></dd>
+				</dl>
+				<dl>
+					<dt><b>支付方式</b></dt>
+					<dd><a href="#">发票制度</a></dd>
+					<dd><a href="#">支付方式</a></dd>
+				</dl>
+				<dl>
+					<dt><b>售后服务</b></dt>
+					<dd><a href="#">退换货政策</a></dd>
+					<dd><a href="#">退换办理流程</a></dd>
+					<dd><a href="#">退款说明</a></dd>
+				</dl>
+				<dl>
+					<dt><b>联系方式</b></dt>
+					<dd>客服：400 821 9988</dd>
+					<dd>监督：021-38119999-6038</dd>
+					<dd><a href="#">在线客服</a></dd>
+					<dd><a href="#">用户调研</a></dd>
+				</dl>
+			</div>
+			<div class="copy">
+				<p>CopyRight © 2000-2016, 版权所有 上海美特斯邦威服饰股份有限公司 banggo.com 沪ICP备05033127号</p>
+				<span>
+					<a href="#"><img src="../img/lz_beian_h40.png"></a>
+					<a href="#"><img src="../img/lz_shgs_h40.png"></a>
+				    <a href="#"><img src="../img/lz_szfw_h40.png"></a>
+				</span>
+			</div>
+		</div>
+		<div id="fix">
+			<div class="top"></div>
+			<div class="online"></div>
+		</div>
+	</body>
+</html>
