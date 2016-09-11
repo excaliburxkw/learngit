@@ -1,0 +1,46 @@
+html,body,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,li,ol,form,legend,fieldset,img{padding: 0;margin: 0;font-family: "微软雅黑";}
+html,body{width: 100%;height: 100%;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{width: 100%;}
+b{font-weight: 100;}
+#header{width: 100%;height: 0.86rem;background: #ab1b1a;position: absolute;top: 0;display: -webkit-box;-webkit-box-pack: center;-webkit-box-align: center;background-image: -webkit-linear-gradient(top,#b52121,#ab1b1a,#a11311);}
+#header p{font-size: 0.36rem;color: #fff;text-align: center;-webkit-box-flex: 1;}
+#header p:nth-of-type(2){-webkit-box-flex: 3;width: 1px;}
+#header p:nth-of-type(3){height: 0.53rem;border: 1px solid #b22020;border-radius: 0.2rem;-webkit-box-flex: 1;font-size: 0.5rem;width: 1px;margin-right: 0.2rem;background-image: -webkit-linear-gradient(top,#cd110f,#b40a0a,#940807);}
+#content {width: 100%;position: absolute;top:0.86rem;bottom: 0.98rem;background: #f3f4f6;overflow: hidden;}
+#content .classify{height: 0.57rem;background: #9a9fa5;width: 6.4rem;overflow: hidden;}
+#content .classify .icon{font-size: 0.4rem;margin-left:0.3rem;font-style: normal;float: left;height: 0.57rem;position: relative;}
+.white{color: #fff;}
+#content .classify span{display: none;width: 0;height: 0;border-width: 5px;border-style: solid;border-color: transparent transparent #fff transparent;position: absolute;bottom: 0;left:0;right:0;margin: 0 auto;}
+#content .classify span.show{display: block;}
+#content .list{width: 100%;font-size: 0.24rem;position: absolute;top:0.57rem;bottom: 0rem;overflow-y: auto;}
+#content .product{float: left;width: 2.46rem;margin:  0.35rem;display: none;}
+#content .product dt{width: 2.46rem;height: 2.46rem;border: 1px solid #ccc;background: #fff;}
+#content .product dt img{width: 2.46rem;height: 2.46rem;}
+#content .product dd{line-height: 0.4rem;}
+#content .product dd:nth-of-type(1){text-align: center;height: 0.4rem;overflow: hidden;}
+#content .product dd:nth-of-type(2){float: left;color: red;}
+#content .product dd:nth-of-type(3){float: right;color: #999;}
+#footer{width: 100%;height: 0.98rem;background: #484850;position: absolute;bottom: 0;}
+#footer ul{display: -webkit-box;font-size: 0.24rem;color: #fff;}
+#footer li{-webkit-box-flex: 1;text-align: center;box-sizing: border-box;border-top:0.05rem solid transparent;}
+#footer li:hover{border-top:0.05rem solid #d71110;}
+
+
+
+@font-face {font-family: 'iconfont';
+    src: url('../icons/iconfont.eot'); /* IE9*/
+    src: url('../icons/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../icons/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../icons/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../icons/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:0.5rem;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+    

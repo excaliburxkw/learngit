@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no,address=no"/>
+		<title></title>
+		<script>
+			document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth/20 + "px";
+		</script>
+		<script type="text/javascript" src="js/zepto.min.js" ></script>
+		<script type="text/javascript" src="js/load.js" ></script>
+		<link rel="stylesheet" type="text/css" href="css/load.css"/>
+		
+	</head>
+	<body>
+		<div id="header">
+			<p>开心摇摇用户登录</p>
+		</div>
+		<div id="content">
+			<input type="text" class="txt" placeholder="请输入账户" />
+			<input type="password" class="psd" placeholder="请输入密码" /><br />
+			<div class="ck_box">
+				<input type="checkbox" id="ck"/><label for="ck">显示密码</label>
+				<a href="#">忘记密码？</a><br />
+				<input type="checkbox" id="ck_auto"/><label for="ck_auto">记住密码自动登录</label>	
+			</div>
+			
+			<input type="button" class="btn_load" value="登录" />
+			<input type="button" class="btn_reg" value="注册" />
+		</div>
+		
+	</body>
+</html>

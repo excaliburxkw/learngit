@@ -1,0 +1,26 @@
+html,body,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,li,ol,form,legend,fieldset,img{padding: 0;margin: 0;font-family: "微软雅黑";}
+html,body{width: 100%;height: 100%;font-size: 0.3rem;overflow: hidden;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+#header{width: 6.4rem;height: 0.86rem;background: #ab1b1a;position: absolute;top: 0;display: -webkit-box;-webkit-box-pack: center;-webkit-box-align: center;}
+#header p{font-size: 0.36rem;color: #fff;text-align: center;-webkit-box-flex: 1;}
+#header p{font-size: 0.36rem;color: #fff;text-align: center;-webkit-box-flex: 1;}
+#header p:nth-of-type(2){-webkit-box-flex: 3;width: 1px;}
+#header p:nth-of-type(3){height: 0.53rem;border: 1px solid #b22020;border-radius: 0.2rem;-webkit-box-flex: 1;font-size: 0.5rem;width: 1px;margin-right: 0.2rem;background-image: -webkit-linear-gradient(top,#cd110f,#b40a0a,#940807);}
+
+#content{width: 5.78rem;padding: 0.38rem 0.31rem;color: #333;position: absolute;top:0.86rem;bottom:0;overflow-y: auto;}
+@font-face {font-family: 'iconfont';
+    src: url('../icon/iconfont.eot'); /* IE9*/
+    src: url('../icon/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../icon/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../icon/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../icon/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:0.5rem;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}

@@ -1,0 +1,10 @@
+html,body,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,li,ol,form,legend,fieldset,img{padding: 0;margin: 0;font-family: "微软雅黑";}
+li{list-style: none;}
+a{text-decoration: none;}
+img{width: 100%;height: 100%;}
+i{font-style: normal;}
+html,body{width: 100%;height: 100%;}
+.swiper-container { width: 100%;height: 100%;}  
+.swiper-pagination span{width: 15px;height: 15px;}
+.swiper-pagination .swiper-pagination-bullet-active{background: #e43769;}
+.btn{width: 2.87rem;height: 0.94rem;position: absolute;bottom: 1.46rem;left: 0;right: 0;margin: 0 auto;z-index: 10;border-radius: 5px;border: 0;color: #fff;background-image:-webkit-linear-gradient(top,#f6608d,#e14e7a,#e22f66) ;font-size: 0.36rem;outline: none;}

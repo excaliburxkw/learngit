@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script type="text/javascript" src="js/zepto.js" ></script>
+		<script type="text/javascript" src="js/touch.js" ></script>
+		<script type="text/javascript" src="js/rem.js" ></script>
+		<link rel="stylesheet" href="icon/iconfont.css" />
+		<script>
+			$(function(){
+				$(".btn").on("click",function(){
+					var speed = 50,
+						index = 0,
+						win = getWin();
+					var arr = [];
+					var timer;
+						action();
+						function action(){
+							timer = setTimeout(function(){
+								speed += 50;
+								boxIdx();
+								arr[index].addClass("move").siblings().removeClass("move");
+								index++;
+								if(index == 8){
+									index = 0;
+								}
+								if(speed >= 700){
+									speed = 700;
+								}
+								if(index == win){
+									if(speed == 700){
+										console.log("获得"+parseInt(win-1)+"等奖");
+									}else{
+										action();
+									}
+								}else{
+									action();
+								}
+							},speed)	
+						}
+					function boxIdx(){
+						arr[0] = $(".box").eq(0);
+						arr[1] = $(".box").eq(1);
+						arr[2] = $(".box").eq(2);
+						arr[3] = $(".box").eq(4);
+						arr[4] = $(".box").eq(7);
+						arr[5] = $(".box").eq(6);
+						arr[6] = $(".box").eq(5);
+						arr[7] = $(".box").eq(3);
+						return arr;
+					}
+					function getWin(){
+						return Math.floor(Math.random() * 8);
+					}
+				})
+			})
+		</script>
+		<style>
+			*{margin: 0;padding: 0;font-size: 0.5rem;}
+			#header{width: 6.4rem;height: 0.86rem;background: #ab1b1a;position: absolute;top: 0;display: -webkit-box;-webkit-box-pack: center;-webkit-box-align: center;}
+			#header p{font-size: 0.36rem;color: #fff;text-align: center;-webkit-box-flex: 1;}
+			#header p:nth-of-type(2){-webkit-box-flex: 3;}
+			#header p:nth-of-type(3){height: 0.53rem;border: 1px solid #b22020;border-radius: 0.2rem;-webkit-box-flex: 1;font-size: 0.3rem;line-height: 0.53rem;}
+			#container{width: 6rem;margin: 1rem auto 0;overflow: hidden;}
+			.box,.btn{width: 2rem;height: 2rem;background: #ab1b1a;float: left;text-align: center;line-height: 2rem;}
+			.btn{background: #484850;color: #fff;}
+			.btn:hover{background: antiquewhite;}
+			.move{background: pink;}
+			
+			#footer{width: 6rem;margin: 0.2rem auto 0;border: 1px solid #ab1b1a;box-sizing: border-box;background: rosybrown;}
+			#footer span{}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<p class="iconfont">&#xe605;</p>
+			<p>转盘抽奖</p>
+			<p class="iconfont">退出登录</p>
+		</div>
+		<div id="container">
+			<div class="box">0</div>
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="btn">抽奖</div>
+			<div class="box">4</div>
+			<div class="box">5</div>
+			<div class="box">6</div>
+			<div class="box">7</div>
+		</div>
+		<div id="footer">
+			<span>1111</span>
+			<span>1111</span>
+			<span>1111</span>
+		</div>
+	</body>
+</html>

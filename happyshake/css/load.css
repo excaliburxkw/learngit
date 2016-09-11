@@ -1,0 +1,17 @@
+html,body,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,li,ol,form,legend,fieldset,img{padding: 0;margin: 0;font-family: "微软雅黑";}
+li{list-style: none;}
+a{text-decoration: none;}
+img{width: 100%;}
+i{font-style: normal;}
+
+#header{width: 20rem;line-height: 2rem;background: firebrick;}
+#header p{font-size: 0.9rem;color: #fff;text-align: center;}
+#content{text-align: center;background: #f3eff0;position: absolute;top:2rem;bottom: 0;width: 20rem;}
+.txt,.psd,.btn_load,.btn_reg{width: 15rem;height: 2rem;border: 0;line-height: 1.9rem;outline: none;margin-top: 1rem;}
+.txt{padding-left: 1rem;width: 14rem;}
+.psd{margin-top: 0.2rem;padding-left: 1rem;width: 14rem;}
+.ck_box{width: 15rem;margin: 0 auto;text-align: left;}
+.ck_box a{margin-left: 0.7rem;color: #fa7ea0;}
+#ck,#ck_auto{width: 1rem;height: 1rem;margin-top: 1.5rem;text-align: left;}
+.btn_load,.btn_reg{width: 15rem;margin-top:6rem;color: #fff;font-size: 0.9rem;background: url(../img/btnbg.jpg);border-radius: 5px;}
+.btn_reg{background:url(../img/regbg.jpg);margin-top: 0.3rem;}
